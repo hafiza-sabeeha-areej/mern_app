@@ -1,8 +1,13 @@
-const express=require("express");
-const app=express()
-Port=3000 | process.env.Port;
+const bodyParser = require("body-parser");
+const express = require("express");
+const { userRouter } = require("./src/services/Register/router/user");
 
-app.listen(Port, function(){
-console.log("server is running");
+const app = express();
+const port = 3000; // Corrected the variable declaration
+app.use(bodyParser.json()); // Added parentheses
 
-})
+app.use("/user", userRouter);
+
+app.listen(port, function () {
+  console.log("server is running");
+});
