@@ -15,9 +15,14 @@ import "./vendor/MagnificPopup/magnific-popup.css";
 import "./vendor/perfect-scrollbar/perfect-scrollbar.css";
 import "./css/util.css";
 import "./css/main.css";
+import ProductItem from "./components/ProductItem";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <ProductItem />
+    </div>
+  );
 }
 
 export default App;
