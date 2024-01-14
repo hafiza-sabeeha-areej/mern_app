@@ -15,7 +15,6 @@ import "./vendor/MagnificPopup/magnific-popup.css";
 import "./vendor/perfect-scrollbar/perfect-scrollbar.css";
 import "./css/util.css";
 import "./css/main.css";
-
 import ProductList from "./Container/ProductList";
 import CartItem from "./components/CartItem";
 import CartPanel from "./components/CartPanel";
