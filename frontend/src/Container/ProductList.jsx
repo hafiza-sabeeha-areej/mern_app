@@ -2,7 +2,7 @@ import React from "react";
 import product_16 from "../images/product-16.jpg";
 import ProductItem from "../components/ProductItem";
 
-const CardContainer = () => {
+const ProductList = () => {
   return (
     <section className="bg0 p-t-23 p-b-130">
       <div className="container">
@@ -14,4 +14,4 @@ const CardContainer = () => {
   );
 };
 
-export default CardContainer;
+export default ProductList;
