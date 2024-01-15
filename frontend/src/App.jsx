@@ -15,12 +15,20 @@ import "./vendor/MagnificPopup/magnific-popup.css";
 import "./vendor/perfect-scrollbar/perfect-scrollbar.css";
 import "./css/util.css";
 import "./css/main.css";
+import Nav from "./components/Nav";
+import Slider from "./components/Slider";
+import Banner from "./components/Banner";
 import ProductItem from "./components/ProductItem";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <ProductItem />
+    <div>
+      <Nav />
+      <Slider />
+      <Banner/>
+      {/* <ProductItem /> */}
+      <Footer/>
     </div>
   );
 }
